@@ -1,0 +1,26 @@
+
+
+isset($var): Devuelve true si la variable está definida y no es null.
+
+empty($var): Devuelve true si la variable está vacía 
+(equivalente a false, 0, null, una cadena vacía, etc.).
+
+(bool)$var: Convierte el valor de la variable a un booleano. Valores como 0, 
+false, "" y null se consideran false, 
+mientras que valores como números distintos de cero, 
+cadenas no vacías y true son true.
+
+Ejericio 8 --> C
+
+<?php
+$num = "String";
+
+echo 'Numero es igual a: $num';
+?>
+
+Ejercicio 9 -->  D
+define("MI_CONSTANTE", 100);
+echo MI_CONSTANTE; // Imprime 100
+
+
+Ejercicio 10 --> C
